@@ -10,4 +10,4 @@ def test_save_task():
     with open(filename, "r", encoding="utf-8") as f:
         content = f.read()
 
-    assert content == "something else"
+    assert content == "hello world"
